@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">JPGConvertToPNG</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_text">Введите текст</string>
+    <string name="btn_second_task">Открыть второе задание</string>
+    <string name="btn_open_first_task">Открыть первое задание</string>
+    <string name="btn_convert">Конвертировать</string>
+    <string name="process_in_convert">Процесс конвертации</string>
+    <string name="cancel">Отмена</string>
+    <string name="success_convert">Успешная ковертация</string>
+    <string name="error_convert">Ошибка конвертации</string>
+    <string name="cancel_convert">Конвертация отменена</string>
+    <string name="progress">Convert in progress</string>
 </resources>

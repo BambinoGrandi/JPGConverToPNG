@@ -3,24 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".ui.activity.MainActivity">
+    tools:context=".ui.fragments.JPGConvertToPngFragment"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btn_open_first_task"
+    <ImageView
+        android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_open_first_task"/>
+        android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/btn_open_second_task"
+        android:id="@+id/btn_convert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_second_task"/>
+        android:text="@string/btn_convert"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
